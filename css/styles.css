@@ -1,9 +1,10 @@
 html {
-  height: 100%;
+  height: 100%; /* Required for fullscreen background gradient */
 }
 
 body {
   margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  /* Below styles required for fullscreen background gradient */
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
